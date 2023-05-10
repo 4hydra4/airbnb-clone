@@ -9,7 +9,7 @@ import { UserContextProvider } from './UserContext';
 import ProfilePage from './pages/AccountPage';
 import PlacesPage from './pages/PlacesPage';
 import PlacesFormPage from './pages/PlacesFormPage';
-import PlaceHomePage from './pages/placeHomePage';
+import PlaceHomePage from './pages/PlaceHomePage';
 import BookingsPage from './pages/BookingsPage';
 import SinglebookingPage from './pages/SinglebookingPage';
 
