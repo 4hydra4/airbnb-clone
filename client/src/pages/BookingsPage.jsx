@@ -21,7 +21,7 @@ function BookingsPage() {
                     <Link to={`/account/bookings/${booking._id}`} className="flex gap-4 my-4 bg-gray-200 rounded-2xl overflow-hidden">
                         <div className="w-48">
                             {booking.place.photos.length && (
-                                <img className='object-cover' src={'http://localhost:4000/uploads/' + booking.place.photos[0]} alt="" />
+                                <img className='object-cover' src={booking.place.photos[0]} alt="" />
                             )}
                         </div>
                         <div className="py-3 pr-3 grow">
